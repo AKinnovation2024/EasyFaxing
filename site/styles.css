@@ -17,6 +17,11 @@ section {
     padding: 20px;
 }
 
+#features ul {
+    list-style-type: disc; /* Use disc bullets */
+    margin-left: 20px; /* Add some margin to the left for better alignment */
+}
+
 ul {
     list-style-type: none;
 }
@@ -27,9 +32,13 @@ footer {
     padding: 10px;
 }
 
+#download {
+    padding-top: 0;
+}
+
 .download-btn {
     display: inline-block;
-    background-color: #28a745;
+    background-color: #4f84a3;
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
